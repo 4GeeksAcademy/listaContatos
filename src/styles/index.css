@@ -1,3 +1,91 @@
-/* 
-    General Styles
-*/
+/* styles.css */
+.container {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1.text-center {
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: 600;
+}
+
+.form-label {
+    font-weight: 500;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    font-size: 16px;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.card-title {
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.card-text {
+    color: #7f8c8d;
+}
+
+.modal-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #e74c3c;
+}
+
+.modal-body {
+    color: #2c3e50;
+    font-size: 16px;
+}
+
+.delete-contact-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #333; /* Cor padrão do ícone */
+    font-size: 20px; /* Ajuste o tamanho do ícone conforme necessário */
+    transition: color 0.3s ease;
+  }
+  
+  .delete-contact-btn:hover {
+    color: #ff4d4d; /* Cor ao passar o mouse (pode ser qualquer cor de sua preferência) */
+  }
+  
+  .delete-contact-btn i {
+    transition: transform 0.2s ease;
+  }
+  
+  .delete-contact-btn:hover i {
+    transform: scale(1.1); /* Aumenta um pouco o ícone ao passar o mouse */
+  }
+  
+  .edit-contact-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #333; /* Cor padrão do ícone */
+    font-size: 20px; /* Ajuste o tamanho do ícone conforme necessário */
+    transition: color 0.3s ease;
+  }
+  
+  .edit-contact-btn:hover {
+    color: #4d90fe; /* Cor ao passar o mouse (pode ser um tom de azul para editar) */
+  }
+  
+  .edit-contact-btn i {
+    transition: transform 0.2s ease;
+  }
+  
+  .edit-contact-btn:hover i {
+    transform: scale(1.1); /* Aumenta um pouco o ícone ao passar o mouse */
+  }
+  
